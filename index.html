@@ -1,0 +1,133 @@
+# Privacy Policy for Orbit
+
+**Last updated:** June 29, 2026  
+**Contact:** procrastinatingshadow@gmail.com
+
+Orbit ("we," "our," or "the Extension") is a Chrome extension that replaces your new tab with a personal dashboard. This Privacy Policy explains how your information is handled when you use Orbit.
+
+**Summary:** Orbit is local-first. Your tasks, habits, settings, and other dashboard data stay on your device by default. We do not operate servers that store your dashboard data. Optional features may send limited data to third-party services only when you use those features (see below).
+
+---
+
+## 1. Information we do not collect
+
+Orbit does **not**:
+
+- Require an account or sign-up to use the extension
+- Run analytics or telemetry to Orbit-operated servers
+- Sell your data
+- Use your data for advertising or creditworthiness
+
+We do not operate user-data servers for your dashboard content.
+
+---
+
+## 2. Data stored on your device (default)
+
+By default, all dashboard data is stored locally in your browser using Chrome's extension storage (`chrome.storage.local`), including for example:
+
+- Tasks, habits, jobs, links, sticky notes, and entertainment lists
+- Widget layout, wallpaper, theme, and settings
+- Reminders and notification preferences
+
+This data remains on your device. We cannot access it remotely.
+
+You can export or import backups manually from **Settings → Data & Backup**.
+
+---
+
+## 3. Optional Google Drive backup
+
+If you turn on **Google backup** in **Settings → Data & Backup**:
+
+- You sign in with Google via Chrome's OAuth flow (`identity` permission).
+- A JSON backup of your dashboard is stored in your Google account's hidden **appDataFolder** (not visible in your normal Drive file list).
+- Sync is direct between your browser and Google. Orbit does not receive or store your Google credentials on any Orbit server.
+- You can disconnect at any time. Local data on your device is unaffected.
+
+This feature is **opt-in** and **off by default**.
+
+---
+
+## 4. Voluntary feedback (in-app)
+
+If you submit a **bug report** or **widget request** from Settings, you may optionally include:
+
+- A description of the issue or request
+- An optional contact email
+
+That information is sent to our team via **Discord** (a third-party service) only when you click Send. We use it solely to respond to or triage your feedback. Do not include sensitive personal data in feedback messages.
+
+---
+
+## 5. Third-party services (feature-specific)
+
+When you use certain widgets, the extension may contact third-party services. Orbit does not send your full dashboard to these services.
+
+| Service | When it's used | What is sent |
+|---------|----------------|--------------|
+| **Aladhan** (`api.aladhan.com`) | Prayer times widget | City/country or latitude/longitude you configure or approve for prayer calculations |
+| **TMDB / AniList** | Entertainment search & posters | Search queries and public metadata requests (e.g. show/movie titles) |
+| **football-data.org** | Sports scores | Standard API requests; no personal dashboard data |
+| **DuckDuckGo Icons** | Link favicons | Website URLs you saved in Links |
+| **Google** | Optional backup (see §3) | OAuth sign-in and backup file to your Google account |
+| **Discord** | Voluntary feedback (see §4) | Only what you submit in the feedback form |
+
+Prayer location may be entered manually or obtained via your browser's geolocation **only when you explicitly choose** to use device location. Coordinates are used to fetch prayer times and are not sent to Orbit servers.
+
+Sports, entertainment, and favicon requests are initiated to provide widget functionality, not to profile you.
+
+---
+
+## 6. Tab Audio widget
+
+The Tab Audio widget uses a content script to read and adjust audio levels in browser tabs you interact with. Audio processing happens locally in your browser. Orbit does not record, transmit, or store your audio.
+
+---
+
+## 7. Permissions (why the extension asks for them)
+
+| Permission | Purpose |
+|------------|---------|
+| `storage` / `unlimitedStorage` | Save your dashboard locally |
+| `tabs` / `tabGroups` | Tab Audio widget; save tab groups to Links |
+| `contextMenus` | "Save tab group to Orbit" right-click action |
+| `alarms` / `notifications` | Reminders and due-date alerts |
+| `scripting` | Tab Audio volume control |
+| `identity` | Optional Google Drive backup sign-in |
+| Host access to specific APIs | Sports, favicons, feedback, and backup as described above |
+| `<all_urls>` (content script) | Tab Audio only — per-tab volume on pages you use |
+
+---
+
+## 8. Data retention and deletion
+
+- **Local data:** Removed when you uninstall the extension or clear extension data in Chrome.
+- **Google backup:** Remains in your Google account until you delete it or disconnect backup in Settings.
+- **Feedback:** Retained in our Discord workspace only as long as needed for support and product planning.
+
+---
+
+## 9. Security
+
+Because your data is stored locally (and optionally in your own Google account), its security depends on your device, browser, and Google account protections. Use device lock, a strong Google password, and Chrome's built-in security features.
+
+---
+
+## 10. Children
+
+Orbit is not directed at children under 13. We do not knowingly collect personal information from children.
+
+---
+
+## 11. Changes to this policy
+
+We may update this Privacy Policy from time to time. The "Last updated" date at the top will change when we do. Continued use of Orbit after an update means you accept the revised policy.
+
+---
+
+## 12. Contact
+
+Questions about this Privacy Policy or your data:
+
+**Email:** procrastinatingshadow@gmail.com
